@@ -1,0 +1,15 @@
+SIMULATED TIME$
+LOOP_TIME=1$
+TIMEOUT SET TO 10000 MS$
+LOOPS LIMIT SET TO 10 LOOPS$
+$
+0 digitalWrite(13, 0)$
+1 digitalWrite(13, 0)$
+2 digitalWrite(13, 0)$
+3 digitalWrite(13, 0)$
+4 digitalWrite(13, 0)$
+5 digitalWrite(13, 1)$
+6 digitalWrite(13, 1)$
+7 digitalWrite(13, 1)$
+8 digitalWrite(13, 1)$
+9 digitalWrite(13, 0)$

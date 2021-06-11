@@ -1,0 +1,6 @@
+gcc -Ibutton -o solution main.c fakeArduino.c button/inputs.c button/button.c
+./solution | cat -e > solution.txt
+gcc -Ibutton -o student main.c fakeArduino.c button/inputs.c student.c 
+./student | cat -e > student.txt
+diff -u solution.txt student.txt > diff.txt
+cat -e diff.txt
